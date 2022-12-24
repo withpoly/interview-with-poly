@@ -9,12 +9,11 @@ You should make the decision of what kind of network to use, how to structure th
 
 1. What if the image is really large or not of a standard size?
 2. What should occur at the edges of the image?
-3. What is the runtime performance of training, inference?
-4. Are you using a fully connected network?
-5. Are there optimizations built into your framework of choice (e.g. Pytorch) that can make this fast?
-6. How do you make inference really fast?
-7. How do you know when training is complete?
-8. How do you specify the Sobel kernel size in your network?
+3. Are you using a fully convolutional architecture?
+4. Are there optimizations built into your framework of choice (e.g. Pytorch) that can make this fast?
+5. What if you wanted to optimize specifically for model size?
+6. How do you know when training is complete?
+7. What is the benefit of a deeper model in this case? When might there be a benefit for a deeper model (not with a sobel kernel but generally when thinking about image to image transformations)?
 
 ## What is a Sobel Filter?
 
@@ -30,4 +29,4 @@ This is up to you! There are lots of easy dataset libraries out there. Often the
 
 ## Extra credit question
 
-Now generalize your algorithm so that it can learn any arbitrary image kernel-based filter. You could test this by randomizing the kernel. What are the limitations of this? 
+Now generalize your algorithm so that it can learn any arbitrary image kernel-based filter. You could test this by randomizing the kernel. What are the limitations of this?

@@ -25,12 +25,16 @@ Our primary goal is to give you the opportunity to show off your skills. If you 
 ## Stuff that doesn't matter
 
 1. Writing unit tests
-2. Typing code comprehensively
+2. Fully-type hinted code
 
-## Questions
+## Interview Questions
 
 Please see the individual folders for questions
 
 ## Submitting your result
 
 You can e-mail us at [work@withpoly.com](mailto:work@withpoly.com) with a link to your repo. We are looking for more elegant ways to privately share your results without using e-mail (e.g. GitHub pull requests).
+
+## Asking for clarification
+
+If you have any clarifying questions about your interview prompt or the interview process, feel free to open a github issue and I will try to address the question there.
