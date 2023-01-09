@@ -5,6 +5,8 @@ We would like you to write an img2img algorithm that creates a neural network th
 
 You should make the decision of what kind of network to use, how to structure the layers, etc. Most architectures will work as the network is likely to very quickly converge, but keep in mind what goal you are optimizing for.
 
+**NOTE:** if your model architecture is very deep or you are borrowing an off-the-shelf model, you are likely not thinking about this problem in the right way. 
+
 ## Some questions
 
 1. What if the image is really large or not of a standard size?
