@@ -5,11 +5,11 @@ We would like you to write a web server in Node.js that utilizes wasm (WebAssemb
 
 ## Context
 
-The most important link you need is [this](https://wasmedge.org/book/en/sdk/node.html), which is essentially a fully set up library to use WasmEdge from within Node.js. In their example, the client application has some task (solving a quadratic equation) and the client pings the server to solve the problem via a WasmEdge connector. You need to write a your own code compiled to wasm binary that is run on both the client and the server. The client will of course need to include a way to contact the server (this could be native to the binary or external to it, i.e. either be via a Wasm Fetch API, or just by calling a javascript method in the containing code).
+The most important link you need is [this](https://wasmedge.org/book/en/sdk/node.html), which is essentially a fully set up library to use WasmEdge from within Node.js. In their example, the client application has some task (solving a quadratic equation) and the client pings the server to solve the problem via a WasmEdge connector. You need to write a your own code compiled to wasm binaries that are run on both the client and the server. The client will of course need to include a way to contact the server (this could be native to the wasm code or external to it, i.e. either be via a Wasm Fetch API, or just by calling a javascript method in the containing code).
 
-The goal is to have the same Wasm code be "write once, run anywhere", so do NOT write your method twice. Your client also gets to "decide" whether to run locally or run on the server, so you do not need to dynamically compile the runtime or anything. Just a statically compiled binary should work. 
+The goal is to have the same Wasm code be "write once, run anywhere", so do NOT write your method twice. Your client also gets to "decide" whether to run locally or run on the server, so you do not need to dynamically compile the runtime or anything. Just a statically compiled binary should work. Note that you might need two compilation targets even if the code is shared.
 
-You can choose any language to write your wasm binary in. We recommend Rust, but Python, C, etc. should all work. For a demo, your wasm application can just do something simple like echoing text, adding numbers, etc. 
+You can choose any language to write your wasm library in. We recommend Rust, but Python, C, etc. should all work. For a demo, your wasm application can just do something simple like echoing text, adding numbers, etc. 
 
 ## Some questions
 
