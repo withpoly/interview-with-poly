@@ -31,6 +31,10 @@ First off, the interviews will be technical, and you will be expected to have a 
 
 Second, the interviews will be more about gauging your comfort with solving these kinds of problems on a day-to-day basis, so we always give you problems that we have specifically encountered in our work at Poly. The main question we want to answer is: "is this the kind of person that can do this kind of stuff every day?".
 
+## Preparation
+
+Please install VSCode and install the [Live Share plugin](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare). This will allow us to collaborate on a code editing exercise.
+
 ### Specific Practice Activities
 
 * The best practice you can do is to actually just take a few hours to build a tool, package, module, or repo from scratch. For python programmers, an easy thing to work on would be a CLI tool built in a tool such as [Typer](https://typer.tiangolo.com). You should try and create a CLI tool that does something like, e.g. print out a fractal in ASCII. Something complicated enough to be challenging but satisfying. Make sure you get practice with stuff like classes, list/dict comprehension, and syntax stuff like loops. That way, when you do your interview, you can focus on the problem and not the syntax.
