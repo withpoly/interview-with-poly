@@ -73,6 +73,10 @@ Our primary goal is to give you the opportunity to show off your skills. If you 
 
 Please see the individual folders for questions
 
+### Asking for clarification
+
+If you have any clarifying questions about your interview prompt or the interview process, feel free to open a github issue here on this repo as well and I will try to address the question there.
+
 ### Submitting your result
 
 You can e-mail us at [work@withpoly.com](mailto:work@withpoly.com) with a link to your repo.
@@ -80,7 +84,3 @@ You can e-mail us at [work@withpoly.com](mailto:work@withpoly.com) with a link t
 > **Warning**
 > Please do not open a pull request against this repo! That will make your
 > submission public to anyone and easily searchable.
-
-### Asking for clarification
-
-If you have any clarifying questions about your interview prompt or the interview process, feel free to open a github issue and I will try to address the question there.
