@@ -31,7 +31,7 @@ First off, the interviews will be technical, and you will be expected to have a 
 
 Second, the interviews will be more about gauging your comfort with solving these kinds of problems on a day-to-day basis, so we always give you problems that we have specifically encountered in our work at Poly. The main question we want to answer is: "is this the kind of person that can do this kind of stuff every day?".
 
-## Preparation
+### Preparation
 
 > **Important**
 > Please install VSCode and install the [Live Share plugin](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare). This will allow us to collaborate on a code editing exercise.
@@ -43,7 +43,7 @@ Second, the interviews will be more about gauging your comfort with solving thes
 * If you are a front-end person, I would get a test project set up in [Nuxt 3](https://nuxt.com), which is the frontend framework we use. Though you will not be required to know Nuxt as a condition for being hired, the more you know the better your chances. Note that we aren't dogmatic about frameworks -- you will have more than enough leeway to convince us out of Nuxt if you so choose. We're excited when people argue with us about technical decisions (seriously!) because it implies passion.
 * Be yourself, and don't feel expected to have to know everything. The interview is as much about reacting as it is to knowing.
 
-## Technical Interview Instructions
+## Take-Home Exercise Instructions
 
 The take-home kit is designed to help you showcase your skills in a much more thoughtful setting than a stressful real-time programming interview. These questions are designed to take a few hours. While we can't compensate you for the time you spend answering these questions, we hope that the experience of doing these problems is informative and educational. If not, we welcome any feedback on the interview process (which you can send alongside, or in lieu of, your code submission).
 
