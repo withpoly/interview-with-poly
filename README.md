@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://withpoly.com/social.png" width="50%" />
+    <img src="https://withpoly.com/favicon.png" width="200px" />
 </p>
 
 # Interview With Poly
