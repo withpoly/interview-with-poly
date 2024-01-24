@@ -33,7 +33,7 @@ Second, the interviews will be more about gauging your comfort with solving thes
 
 ### Preparation
 
-> **Important**
+> [!IMPORTANT]
 > Please install VSCode and install the [Live Share plugin](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare). This will allow us to collaborate on a code editing exercise.
 
 ### Specific Practice Activities
@@ -81,6 +81,6 @@ If you have any clarifying questions about your interview prompt or the intervie
 
 You can e-mail us at [work@withpoly.com](mailto:work@withpoly.com) with a link to your repo.
 
-> **Warning**
+> [!WARNING]
 > Please do not open a pull request against this repo! That will make your
 > submission public to anyone and easily searchable.
