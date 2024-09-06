@@ -18,9 +18,9 @@ We would like you to come up with a new binary file format for storing configura
 We want you to come up with a highly _compact_ representation for this configuration file, that absolutely minimizes the amount of space taken up. You should not use an existing tool or system, e.g. protobufs, etc. We want to see you write a serializer / deserializer yourself. Your system can be written as a set of two methods that convert to and from a Rust struct to this file, e.g.:
 
 ```rs
-pub trait MyFormat<S> {
-    fn serialize(file: Vec<u8>) -> S;
-    fn deserialize(data: S) -> Vec<u8>;
+pub trait MyEfficientFormat<S> {
+    fn serialize(data: S) -> Vec<u8>;
+    fn deserialize(bytes: Vec<u8>) -> S;
 }
 ```
 
@@ -45,5 +45,5 @@ Our goal is to see if you understand the basic capabilities of Rust, and that yo
 ## What are we not looking for?
 
 1. Tests (you don't need to write any, though it's often to write them as you work! You can leave in whatever ones your have if you want, though we won't look at them).
-2. Derive/Proc Macros (you don't need to make your solution totally, 100% ergonomic, just come up with the core strategy).
+2. Prettification macros (you don't need to make your solution totally, 100% ergonomic or clean, just come up with the core strategy). You can use macros to help walk the syntax tree or enumerate struct properties if you wish, but if your solution requires one then you are likely thinking about the problem incorrectly.
 3. Documentation (you don't need to extensively comment your code beyond what is helpful to you, nor do you need to write out an extensive README beyond addressing the question and describing the solution)
