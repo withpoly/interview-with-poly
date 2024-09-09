@@ -1,4 +1,4 @@
-# ML Engineering Interview: Rust
+# ML Engineering Interview: Pytorch
 
 ## The Problem
 
